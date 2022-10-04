@@ -20,6 +20,11 @@ public class ProductController {
 
 	@Autowired
 	ProductService service;
+	
+	@GetMapping(value ="welcome")
+	public String welcome(){
+		return "Welcome to our project";
+	}
 
 	@PostMapping(value = "/saveProduct")
 	public boolean saveProduct(@RequestBody Product product) {

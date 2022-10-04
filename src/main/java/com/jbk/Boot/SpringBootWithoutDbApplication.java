@@ -8,6 +8,7 @@ public class SpringBootWithoutDbApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootWithoutDbApplication.class, args);
+		System.out.println("Hello");
 	}
 
 }

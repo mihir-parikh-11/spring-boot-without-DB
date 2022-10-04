@@ -29,6 +29,7 @@ public class ProductController {
 	@PostMapping(value = "/saveProduct")
 	public boolean saveProduct(@RequestBody Product product) {
 		boolean isAdded = service.saveProduct(product);
+		System.out.println(product);
 
 		return isAdded;
 	}

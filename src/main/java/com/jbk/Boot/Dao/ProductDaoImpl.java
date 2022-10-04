@@ -74,5 +74,11 @@ public class ProductDaoImpl implements ProductDao {
 		}
 		return isUpdated;
 	}
+	
+	public void update(){
+		
+		System.out.println("update by dev2");
+		
+	}
 
 }
